@@ -10,11 +10,14 @@ const NavBar = () => {
   return (
     <>
       <div className="container-nav-bar">
-        <div className="image-nav-bar">
-          <h1>Icon</h1>
+        <div className="name-nav-bar">
+          <h1>Alejadro A. A. M.</h1>
         </div>
         <div className="links-nav-bar">
-          <FiAlignJustify onClick={() => setOpenModal(!openModal)} />
+          <FiAlignJustify
+            color="white"
+            onClick={() => setOpenModal(!openModal)}
+          />
         </div>
       </div>
 

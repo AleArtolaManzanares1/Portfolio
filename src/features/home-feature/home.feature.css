@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+.container-image-header-home {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-image-header-home > img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-information-about {
+  margin-top: 5em;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.container-information-about-home {
+  width: 60%;
+  height: 270px;
+  color: white;
+  margin-left: 10px;
+}
+
+.container-information-about-home > p {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.title-information-about-home {
+  width: 90%;
+  font-size: 20px;
+}
+
+.container-image-about-home {
+  width: 50%;
+  height: 270px;
+}
+
+.container-image-about-home > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.my-projects-highlight {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
