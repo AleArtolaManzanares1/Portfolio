@@ -1,9 +1,8 @@
+import Navigation from "./components/navigation/navigation.component";
+import "./index-global.css"
+
 function App() {
-  return (
-    <div className="App">
-      <h1>Hola</h1>
-    </div>
-  );
+  return <Navigation/>
 }
 
 export default App;
